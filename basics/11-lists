@@ -1,17 +1,2 @@
 #!/bin/bash
-
-# Fonction pour lister les fichiers dans un repertoire donner
-lister_fichiers() {
-    echo "Liste des fichiers dans $1 :"
-    ls -la "$1"
-    echo ""
-}
-
-# Repertoire courant
-lister_fichiers "."
-
-# Repertoire parent
-lister_fichiers ".."
-
-# Repertoire /boot
-lister_fichiers "/boot"
+cat
