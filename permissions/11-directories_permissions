@@ -1,2 +1,2 @@
 #!/bin/bash
-chown 775
+find . -type d -exec chmod a+x
