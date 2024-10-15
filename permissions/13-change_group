@@ -1,2 +1,2 @@
 #!/bin/bash
-chgrp --changes school hello/tmp
+chgrp school hello
