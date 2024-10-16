@@ -1,2 +1,2 @@
 #!/bin/bash
-print "(C-x 8o)'
+echo -e "\"(\xC3\x94o)'"
