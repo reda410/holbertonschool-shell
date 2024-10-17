@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.gif" | awk -F/ '!seen[$(NF-1)]++ {print $NF}'
+find . -type f -name "*.gif" -exec sh -c 'for file; do echo "${file%.gif}"; done' sh {} + | sort -f
