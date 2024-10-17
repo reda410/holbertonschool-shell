@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -e '#!/bin/bash\nls -la > ls_cwd_content' > script.sh && chmod u+x script.sh
