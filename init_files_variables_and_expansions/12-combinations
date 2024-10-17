@@ -1,2 +1,2 @@
 #!/bin/bash
-for first in {a..z}; do
+for first in {a..z} do
