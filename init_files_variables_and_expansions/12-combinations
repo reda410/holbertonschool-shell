@@ -1,2 +1,2 @@
 #!/bin/bash
-for first in {a..z} do
+echo {a..z}{a..z} | tr
