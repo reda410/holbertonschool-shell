@@ -1,2 +1,2 @@
 #!/bin/bash
-\ls -1 | cat -n | grep
+\ls -1 | cat -n | grep | cut -d$ -f2
